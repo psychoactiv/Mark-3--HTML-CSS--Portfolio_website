@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-
+nav {
+  background: linear-gradient(to left, #e66465, #9198e5);
+}
+.footer {
+  background: linear-gradient(to left, #e66465, #9198e5);
+}
 :root {
   --primary-color: #5f0d69;
   --off-white: #f3f4f6;
@@ -17,13 +22,13 @@ hr {
   margin: 2rem 0rem;
 }
 
-/** spaces **/
+/*space*/
 
 .margin-md {
   margin: 2rem;
 }
 
-/** container **/
+/*container*/
 .container {
   padding: 0rem 1rem;
 }
@@ -34,7 +39,7 @@ hr {
   margin: auto;
 }
 
-/** links **/
+/*link*/
 .link {
   box-sizing: border-box;
   text-decoration: none;
@@ -49,6 +54,9 @@ hr {
   margin: 1rem auto;
   border-radius: 2rem;
 }
+.link-primary:hover {
+  background: linear-gradient(to left, #e66465, #9198e5);
+}
 
 .link-secondary {
   max-width: 140px;
@@ -59,9 +67,11 @@ hr {
   color: var(--primary-color);
 }
 
-/** look into BEM naming convention for CSS **/
-
-/** lists **/
+.link-secondary:hover {
+  background: linear-gradient(to left, #e66465, #9198e5);
+  color: whitesmoke;
+  border: none;
+}
 
 .list-non-bullet {
   list-style: none;
@@ -73,8 +83,7 @@ hr {
   padding: 0rem 0rem;
 }
 
-/** navigation **/
-
+/* nav */
 .navigation {
   background-color: var(--primary-color);
   color: white;
@@ -104,8 +113,7 @@ hr {
   font-weight: bold;
 }
 
-/** header **/
-
+/* header */
 .imp {
   padding: 2rem;
   padding-top: 5rem;
@@ -128,7 +136,7 @@ hr {
   color: var(--primary-color);
 }
 
-/** sections **/
+/* sec */
 
 .section {
   padding: 2rem;
@@ -145,7 +153,7 @@ hr {
   background-color: var(--off-white);
 }
 
-/** footers **/
+/*footers*/
 
 .footer {
   background-color: var(--primary-color);
@@ -168,9 +176,8 @@ hr {
   padding-inline-start: 0px;
 }
 
-/** projects **/
+/*projects*/
 .showcase-list {
-  /* padding: 2rem; */
   padding: 2rem;
   border-radius: 1rem;
   text-align: center;
@@ -184,7 +191,7 @@ hr {
   padding-bottom: 1rem;
 }
 
-/** blogs **/
+/* blog */
 
 .showcase-blog {
   padding-bottom: 6rem;
