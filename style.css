@@ -51,7 +51,7 @@ hr {
   padding: 0.6rem 1.2rem;
   background-color: var(--primary-color);
   color: #fff;
-  margin: 1rem auto;
+  margin: 1rem;
   border-radius: 2rem;
 }
 .link-primary:hover {
@@ -70,7 +70,7 @@ hr {
 .link-secondary:hover {
   background: linear-gradient(to left, #e66465, #9198e5);
   color: whitesmoke;
-  border: none;
+  border: var(--primary-color);
 }
 
 .list-non-bullet {
@@ -205,9 +205,12 @@ hr {
   .container-center {
     width: auto;
   }
-
   .link-primary {
     display: block;
+  }
+  .link-secondary {
+    display: block;
+    text-align: center;
   }
 }
 
